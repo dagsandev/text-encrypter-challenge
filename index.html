@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encrypter</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css"> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <section>
+        <header>
+            <nav class="logo">
+                <a href="index.html"><img src="img/A-alura.png" alt="Alura logo"></a>
+            </nav>
+        </header>
+    </section>   
+
+    <div class="main-container"> 
+
+        <div class="textarea-primary">
+            <div class="textarea-request-container">           
+                <textarea type="text" name="textareaRequest" class="textarea-request"  id="textareaRequest" placeholder="Insert text here"></textarea>         
+            </div>
+
+            <div class="alert">        
+                <span>
+                    <img src="img/alert.png" alt="alert icon">
+                    Only words in lowercase and without accent marks
+                </span>
+            </div>
+    
+            <div class="buttons-container">
+                <button type="button" id="encrypt-button" onclick="encryptText()">Encrypt</button>
+                <button type="button" id="decrypt-button" onclick="decryptText()">Decrypt</button>
+            </div>    
+            
+        </div>        
+
+        <div class="textarea-secondary">
+            <div class="girl-container" >
+                <img src="img/message-notfound-girl.png" alt="Image of a girl with a magnifying glass searching for something" id="girl">            
+                <h2>No Message was found</h2>
+                <p>Enter the text you want to encrypt or decrypt.</p>
+            </div>
+
+            <div class="textarea-response-container">
+                <textarea  type="text" name="textareaResponse" class="textarea-response"  id="textareaResponse" readonly></textarea>
+                
+                <div class="btnCopy-container">
+                    <button type="button" id="btnCopy" onclick="copyText()">Copy</button>
+                </div>    
+            </div>
+        </div>   
+    </div>
+
+    <footer>
+        <p>Developed by SannDag for Oracle & Alura Latam Challenge #1 - May 2023. 
+            <a href="https://www.linkedin.com/in/dagliosantiago/" target="_blank"><img src="img/linkedin.png" alt="Linkedin logo"></a>
+            <a href="https://github.com/SannDag" target="_blank"><img src="img/github.png" alt="GitHub logo"></a>
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
