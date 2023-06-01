@@ -74,3 +74,8 @@ function copyText() {
 document.getElementById("encrypt-button").addEventListener("click", encryptText);
 document.getElementById("decrypt-button").addEventListener("click", decryptText);
 document.getElementById("btnCopy").addEventListener("click", copyText);
+
+//for mobile:
+document.getElementById("decrypt-button").addEventListener("touchend", decryptText);
+document.getElementById("btnCopy").addEventListener("touchend", copyText);
+document.getElementById("btnCopy").addEventListener("touchend", copyText);
