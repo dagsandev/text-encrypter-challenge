@@ -70,3 +70,7 @@ function copyText() {
   
     alert("The following text has been copied: " + text.value);
 }
+
+document.getElementById("encrypt-button").addEventListener("click", encryptText);
+document.getElementById("decrypt-button").addEventListener("click", decryptText);
+document.getElementById("btnCopy").addEventListener("click", copyText);
