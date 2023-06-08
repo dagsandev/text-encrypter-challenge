@@ -9,6 +9,17 @@
 To test the app, please click on the link:
 https://sanndag.github.io/text-encrypter-challenge/
 
+Preview:
+
+**Desktop**
+![App desktop](img/app-desktop.png)
+
+**Mobile**
+<br>
+![App mobile 1](img/app-mobile-1.png)
+<br>
+![App mobile 2](img/app-mobile-2.png)
+
 <br>
 <br>
 
