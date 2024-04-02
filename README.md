@@ -7,7 +7,7 @@
 <h1>🔒Text Encrypter</h1>
 <br>
 To test the app, please click on the link:
-https://sanndag.github.io/text-encrypter-challenge/
+https://dagsandev.github.io/text-encrypter-challenge/
 
 Preview:
 
